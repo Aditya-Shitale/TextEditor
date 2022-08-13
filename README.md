@@ -9,7 +9,7 @@ In the project directory, you can run:
 ### `npm start`
 <!-- here is the site <video width="320" height="240"  src="./vid/TexEdits.mp4"> -->
 <img src="./Images/Sample.png">
-<img src="./Images/Sample 1.png">
+<img src="./Images/sample 1.png">
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
