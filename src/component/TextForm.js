@@ -64,7 +64,7 @@ export default function TextForm(props) {
         <h1  style={{color: 'Orange'}}>{props.heading}</h1>
 <div className="mb-3">
   {/* <label htmlFor="exampleFormControlTextarea1" className="form-label">Enter Text</label> */}
-  <textarea className="form-control" value={text} style={{backgroundColor: props.mode==='dark'?'#13466e':'white', color: props.mode==='dark'?'white':'#042743'}} onChange={handleOnchange} id="myBox" rows="8"></textarea>
+  <textarea className="form-control" value={text} style={{backgroundColor: props.mode==='dark'?'white':'white', color: props.mode==='dark'?'white':'#042743'}} onChange={handleOnchange} id="myBox" rows="8"></textarea>
 </div>
 
 <button disabled={text.length === 0} className="btn btn-primary mx-1 my-1 " onClick={ChangetoUppercase}>Convert Uppercase</button>
@@ -74,7 +74,7 @@ export default function TextForm(props) {
 <button disabled={text.length === 0} className="btn btn-primary mx-1 my-1" onClick={RemoveSpace}>Remove extra Space</button>
 
 {/* ***********************************************************TO DO****************************************************************************************************** */}
-<div className="dropdown">
+<div className="dropdown" >
   <a className="btn btn-secondary dropdown-toggle my-3 mx-1" href="/" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
     Dropdown link
   </a>
